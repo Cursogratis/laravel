@@ -23,8 +23,8 @@ Route::get('/calculadora/{num}/{num2?}', function($numero, $numero2=0) {
     return 'la suma de los numero: '.($numero+$numero2);
  });
 
- Route::get('/cal/{num}/{num2?}', function($num, $num2=0) {
-    return 'la suma de los numero: '.($num+$num2);
+ Route::get('/calcu/{num}/{num2?}', function($nom, $nom2=0) {
+    return 'la suma de los numero: '.($nom*$nom2);
  });
 
  Route::get('/operaciones', 'operaciones@llegar');
