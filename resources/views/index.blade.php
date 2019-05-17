@@ -6,6 +6,7 @@
     <div class="navbar navbar-dark bg-primary">
         <a class="navbar-brand" href="">USCO</a>
     </div>
+    <button>gello</button>
     <div class="row">
     @foreach($persona as $persona)
         <div class="col-6">
